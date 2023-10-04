@@ -1,5 +1,6 @@
 import loadHome from "./home.js";
 import loadMenu from "./menu.js";
+import loadContact from "./contact.js";
 loadHome();
 
 const content = document.querySelector('div#content');
@@ -12,7 +13,7 @@ function newTab(tabText) {
     tab.textContent = tabText;
     tab.id = tabText;
     tab.addEventListener('click', () => {
-        content.replaceChildren(content.firstElementChild);
+        content.replaceChildren(content.firstElementChild); // Keep just tabs
         if (tab.id === 'home') {
             loadHome();
         } else if (tab.id === 'menu') {
