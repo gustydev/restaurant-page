@@ -31,11 +31,11 @@ function Food(name, price, desc) {
     }
 }
 
-const ramen = new Food('Ramen with eggs', '45', 'A truly low-cost delicacy!');
-const nescau = new Food('Nescau milk', '1', 'Refreshing drink for any occasion!');
-const lasagna = new Food('Lasagna', '20', 'A bit of a classic italian flavor, prepared with a modern microwave.');
-const pizza = new Food('Pizza', '30', 'For the whole family! Credits: Pizzaria Bate Papo');
-const cake = new Food('Cake in a pot', '5', 'A tasty gourmet dessert to contribute with brazilian entrepreneurship!');
+const ramen = new Food('Ramen With Eggs', '45', 'A truly low-cost delicacy!');
+const nescau = new Food('Nescau Milk', '1', 'Refreshing drink for any occasion!');
+const lasagna = new Food('Lasagna', '20', 'A bit of an authentic italian flavor, prepared with a modern microwave.');
+const pizza = new Food('Pizza (Brazilian Style)', '30', 'For the whole family! By Pizzaria Bate Papo');
+const cake = new Food('Cake in a Pot', '5', 'A tasty gourmet dessert to contribute with brazilian entrepreneurship!');
 
 const foodList = [ramen, nescau, lasagna, pizza, cake];
 
